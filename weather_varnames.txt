@@ -1,0 +1,37 @@
+mintmpf: minimum daily air temperature [°F]. We anticipated cold snaps during the winter and heat waves in the summer may reduce cyclist counts. Hence, we used multiple temperature features.
+
+maxtmpf: maximum daily air temperature [°F]
+
+8amtmpf: 8 AM UTC air temp [°F]. We chose this specific time hoping to capture rush-hour temperatures.
+
+4pmtmpf: 4 PM UTC air temp [°F]
+
+maxdwpf: maximum daily dewpoint temperature [°F]. Dewpoint is the best indicator for the feeling of oppressive humidity. Dewpoints of 60°F are typically uncomfortable, especially during strenuous exercise.
+
+maxsknt: maximum non-gust wind speeds [knots]. Since riding into a strong headwind saps a lot more energy from a rider than a tailwind provides, we suspected that windy days discourage cycling. Also, the windiest days can make biking dangerous by messing with a rider’s balance.
+
+pctovc: percent of day with overcast sky cover
+
+meanrh: time-averaged relative humidity
+
+minalt: minimum air pressure [inches of mercury]
+
+minvis: minimum visibility distance [miles]
+
+minfeel: minimum apparent temperature (wind chill or heat index) [°F]
+
+maxfeel: minimum apparent temperature (wind chill or heat index) [°F]
+
+pctpcp: percent of the day raining or snowing
+
+pctmdt: percent of the day with moderate or heavy precipitation
+
+pctsn: percent of the day snowing
+
+maxsdrct2: how far away was the wind direction from true north [compass °] when the daily maximum wind speed was logged?
+
+maxsdrct: wind direction [compass °] at the time of maximum wind speed
+
+amint: precipitation intensity category at 8 AM UTC (0: none, 1: light, 2: moderate, 3: heavy)
+
+pmint: precipitation intensity category at 4 PM UTC
